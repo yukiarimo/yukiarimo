@@ -29,6 +29,10 @@
     align-content: center;
 }
 
+.special-8 {
+    width: 80% !important;
+}
+
 .center-full {
     flex-direction: column;
     justify-content: center;
@@ -103,6 +107,8 @@
 .block-list {
     width: fit-content;
     flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
 }
 
 img {
@@ -120,4 +126,16 @@ a {
 
 #row {
     flex-direction: row;
+}
+
+.block-float {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#toright {
+    right: 0;
+    left: auto;
 }
