@@ -1,5 +1,9 @@
 /* Reset some default styles */
-body, h1, p {
+body,
+h1,
+h2,
+h3
+p {
     margin: 0;
     padding: 0;
 }
@@ -11,74 +15,124 @@ header {
     padding: 2rem;
 }
 
-header > .block-text {
+header>.block-text {
     display: block !important;
     color: white !important;
+    font-size: 24px;
 }
 
 header img {
     border-radius: 50%;
     max-width: 150px;
     border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Home Section Styles */
-#home {
+.home {
     padding: 2rem;
+    background: linear-gradient(123deg, #5bc65e, #46944a);
 }
 
-h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 1rem;
-}
-
-/* Articles, Podcasts, and Researches Section Styles */
-.section {
+.home h2 {
+    font-size: 2.5rem;
+    color: white !important;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 h3 {
-    font-size: 1.5rem;
+    color: white !important;
+}
+
+.work {
+    background: linear-gradient(to bottom, #FF6B6B, #8A2BE2);
+    color: white !important;
+    padding: 2rem;
+}
+
+/* Articles, Podcasts, and Researches Section Styles */
+.block-card {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.block-card h3 {
+    font-size: 1.8rem;
     color: #FF6B6B;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.block-scroll {
+    max-height: 400px;
+    padding: 0;
+    align-items: stretch !important;
+}
+
+.block-list {
+    list-style: none;
+}
+
+.block-list-e {
     margin-bottom: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 /* Creativity Section Styles */
-#creativity {
+.creativity {
     background: linear-gradient(to right, #333, #666);
-    color: #fff;
+    color: white !important;
     padding: 2rem;
 }
 
 .art {
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+}
+
+.art h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .art p {
-    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
 
 .coming-soon {
     margin-top: 2rem;
+    text-align: center;
 }
 
 .coming-soon h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .coming-soon p {
+    font-size: 1.4rem;
     color: #FF6B6B;
     font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     header {
-        padding: 1rem;
+        padding: 1.5rem;
     }
 
     header img {
@@ -86,10 +140,19 @@ h3 {
     }
 
     #home {
+        padding: 1.5rem;
+    }
+
+    .block-card {
         padding: 1rem;
     }
 
-    article {
-        padding: 0.5rem;
+    .art {
+        padding: 1.5rem;
+    }
+
+    .block-card {
+        width: 95%;
+        padding: 2%;
     }
 }
