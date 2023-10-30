@@ -8,6 +8,10 @@ p {
     padding: 0;
 }
 
+.block-text {
+    color: white;
+}
+
 /* Header Section Styles */
 header {
     background: linear-gradient(to right, #FF6B6B, #FFA07A);

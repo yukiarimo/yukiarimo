@@ -15,7 +15,7 @@
 
 - 🤝 I’m looking for help with [Yuna AI](https://github.com/yukiarimo/yuna-ai)
 
-- 👨‍💻 All of my projects are available at [https://www.yukiarimo.tk](https://www.yukiarimo.tk)
+- 👨‍💻 All of my projects are available at [https://yukiarimo.github.io/yukiarimo/](https://yukiarimo.github.io/yukiarimo/)
 
 - 📝 I regularly write articles on [https://medium.com/@yukiarimo](https://medium.com/@yukiarimo)
 
