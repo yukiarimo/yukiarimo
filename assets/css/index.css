@@ -2,10 +2,14 @@
 body,
 h1,
 h2,
-h3
+h3,
 p {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #212529;
 }
 
 .block-text {
@@ -13,29 +17,28 @@ p {
 }
 
 /* Header Section Styles */
-header {
-    background: linear-gradient(to right, #FF6B6B, #FFA07A);
+.header {
+    background: radial-gradient(circle at center, #009245 0%, #009245 50%, #FCEE21 100%);
     text-align: center;
     padding: 2rem;
 }
 
-header>.block-text {
+.header>.block-text {
     display: block !important;
     color: white !important;
     font-size: 24px;
 }
 
-header img {
-    border-radius: 50%;
-    max-width: 150px;
-    border: 5px solid #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+img {
+    width: 50px;
+    height: auto;
+    border-radius: 50% !important;
 }
 
-/* Home Section Styles */
+/* Section Styles */
 .home {
     padding: 2rem;
-    background: linear-gradient(123deg, #5bc65e, #46944a);
+    background: linear-gradient(45deg, #1a1a1a, #000033);
 }
 
 .home h2 {
@@ -49,13 +52,13 @@ h3 {
     color: white !important;
 }
 
-.work {
-    background: linear-gradient(to bottom, #FF6B6B, #8A2BE2);
+.work,
+.contact {
+    background: linear-gradient(45deg, #333333, #666666);
     color: white !important;
     padding: 2rem;
 }
 
-/* Articles, Podcasts, and Researches Section Styles */
 .block-card {
     background-color: rgba(255, 255, 255, 0.15);
     padding: 1.5rem;
@@ -77,19 +80,37 @@ h3 {
     align-items: stretch !important;
 }
 
+/* Hiding scrollbar for Chrome, Safari and Opera */
+.block-scroll::-webkit-scrollbar {
+    display: none !important;
+}
+
+/* Hiding scrollbar for IE, Edge and Firefox */
+.block-scroll {
+    scrollbar-width: none !important;
+    /* Firefox */
+    -ms-overflow-style: none !important;
+    /* IE and Edge */
+}
+
 .block-list {
     list-style: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: none;
+    border: none;
+    box-shadow: none;
 }
 
 .block-list-e {
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem;
     font-size: 1.2rem;
     line-height: 1.5;
+    background: linear-gradient(to right, #FF6B6B, #FFA07A);
 }
 
-/* Creativity Section Styles */
 .creativity {
-    background: linear-gradient(to right, #333, #666);
+    background: linear-gradient(45deg, #1a1a1a, #000033);
     color: white !important;
     padding: 2rem;
 }
@@ -112,35 +133,78 @@ h3 {
     line-height: 1.6;
 }
 
-.coming-soon {
-    margin-top: 2rem;
-    text-align: center;
-}
-
-.coming-soon h3 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.coming-soon p {
-    font-size: 1.4rem;
-    color: #FF6B6B;
-    font-weight: bold;
-}
-
 a {
-    color: black;
+    color: white;
     text-decoration: none;
+    font-size: 1.4rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.topbar-o>.logo {
+    display: flex !important;
+    flex-direction: row !important;
+    margin-left: 2%;
+}
+
+.logo > .block-text {
+    white-space: nowrap;
+}
+
+.logo>img {
+    border-radius: 50%;
+}
+
+.top-tab-block {
+    margin-right: 5%;
+}
+
+/* Hamburger Menu Styles */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+/* Mobile Context Menu Styles */
+.mobile-context-menu {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.82) inset;
+    border-radius: 12px;
+    z-index: 1000;
+    padding: 2%;
+    color: black;
+}
+
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+}
+
+.menu-item:hover {
+    background-color: rgb(95, 95, 95);
 }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-    header {
+    .header {
         padding: 1.5rem;
-    }
-
-    header img {
-        max-width: 100px;
     }
 
     #home {
@@ -151,12 +215,16 @@ a {
         padding: 1rem;
     }
 
-    .art {
-        padding: 1.5rem;
-    }
-
     .block-card {
         width: 95%;
         padding: 2%;
+    }
+
+    .hamburger-menu {
+        display: block !important;
+    }
+
+    .top-tab-block-e {
+        display: none;
     }
 }

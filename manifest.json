@@ -2,10 +2,11 @@
     "name": "Yuki Arimo",
     "short_name": "Yuki Arimo",
     "description": "JavaScript full-stack Developer, and philosophy Vtuber",
+    "lang": "en",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#99c189",
-    "theme_color": "#99c189",
+    "background_color": "#212529",
+    "theme_color": "#212529",
     "icons": [{
             "src": "/assets/img/yukiarimo.png",
             "sizes": "512x512",

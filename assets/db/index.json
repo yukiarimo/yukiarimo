@@ -1,0 +1,178 @@
+{
+    "philosophy": {
+        "articles": {
+            "2024": [{
+                "title": "Successfull success",
+                "description": "Coming soon!",
+                "url": "#"
+            }],
+            "2023": [{
+                    "title": "Solo life!",
+                    "description": "Exploring the Benefits of Solo Living: Discover the freedom, self-discovery, and meaningful connections that come with a solo life.",
+                    "url": "https://medium.com/@yukiarimo/solo-life-1380a480f637"
+                },
+                {
+                    "title": "How does love work?",
+                    "description": "Decoding Romantic Love: Unveil the mysteries of love, its challenges, and the difference between love and care, while prioritizing well-being and logical choices in building strong relationships.",
+                    "url": "https://medium.com/@yukiarimo/how-love-works-98362b3b3231"
+                },
+                {
+                    "title": "First love reflection",
+                    "description": "Exploring First Love: Delve into the mysteries and profound impact of this unique emotion, its lasting influence on your consciousness, and the difference between standard first love and love at first sight.",
+                    "url": "https://medium.com/@yukiarimo/first-love-reflection-4d9933d33991"
+                },
+                {
+                    "title": "Friendship building",
+                    "description": "Unlocking the Secrets of Friendship: Explore the profound impact of friendships, their unique nature, and the independence they offer compared to romantic love.",
+                    "url": "https://medium.com/@yukiarimo/friendship-building-df07a3defdcc"
+                },
+                {
+                    "title": "Find your fate",
+                    "description": "Exploring the Illusion of Fate: Unraveling the enigmatic concept of destiny and understanding the true essence of the choices that shape our lives.",
+                    "url": "https://medium.com/@yukiarimo/find-your-fate-2d29bd692609"
+                }
+            ]
+        },
+        "podcasts": {
+            "2024": [{
+                "title": "Soty overview",
+                "description": "Coming soon!"
+            }],
+            "2023": [{
+                    "title": "JavaScript Introduction",
+                    "description": "JavaScript Unveiled: An Introduction to the Widely Popular Programming Language - Learn its History, How to Use it for Server and Web Coding, and Why it's So Universal.",
+                    "url": "https://www.youtube.com/watch?v=e7UXrTRmnBg"
+                },
+                {
+                    "title": "The mystery of AI consciousness",
+                    "description": "Unraveling the Enigma of AI Consciousness: A Journey into the World of Artificial Intelligence, Consciousness, and the Ethical Horizon.",
+                    "url": "https://www.youtube.com/watch?v=v5HgJUVRiaA"
+                },
+                {
+                    "title": "Japanese Introduction",
+                    "description": "Unlocking the Beauty of Japanese: An Introduction to the Language's History, Particles, Politeness, Quirks, and the Adventure that Awaits.",
+                    "url": "https://www.youtube.com/watch?v=8SEvdwrkubg&t=218s"
+                },
+                {
+                    "title": "How does love work?",
+                    "description": "Decoding Romantic Love: Unveil the mysteries of love, its challenges, and the difference between love and care, while prioritizing well-being and logical choices in building strong relationships.",
+                    "url": "https://www.youtube.com/watch?v=biK7c23CJnI&t=66s"
+                }
+            ]
+        }
+    },
+    "work": {
+        "researches": {
+            "2024": [{
+                    "title": "The Impact of Relations",
+                    "description": "Coming soon!",
+                    "url": "#"
+                },
+                {
+                    "title": "Human Spiritual System",
+                    "description": "Coming soon!",
+                    "url": "#"
+                }
+            ],
+            "2023": [{
+                    "title": "Successful success",
+                    "description": "Coming soon!",
+                    "url": "#"
+                },
+                {
+                    "title": "Soty of Personality",
+                    "description": "Coming soon!",
+                    "url": "#"
+                }
+            ]
+        },
+        "projects": {
+            "2024": [{
+                    "title": "Kiseki",
+                    "description": "A pure JavaScript visual novel builder.",
+                    "url": "https://github.com/yukiarimo/kiseki"
+                },
+                {
+                    "title": "Mirai",
+                    "description": "PWA App Store.",
+                    "url": "https://github.com/yukiarimo/mirai"
+                }
+            ],
+            "2023": [{
+                    "title": "Yuna AI",
+                    "description": "Your Personal AI Girlfriend.",
+                    "url": "https://github.com/yukiarimo/yuna-ai"
+                },
+                {
+                    "title": "Kawai Framework",
+                    "description": "JavaScript framework and CSS library.",
+                    "url": "https://github.com/yukiarimo/kawai-framework"
+                }
+            ]
+        }
+    },
+    "creativity": {
+        "art": {
+            "2024": [{
+                    "title": "Second art",
+                    "description": "Coming soon!",
+                    "url": ""
+                }
+            ],
+            "2023": [{
+                    "title": "DeviantArt",
+                    "description": "Link to deviantart profile",
+                    "url": "https://www.deviantart.com/yukiarimo"
+                }
+            ]
+        },
+        "photography": {
+            "2024": [{
+                    "title": "Second photo",
+                    "description": "Coming soon!",
+                    "url": ""
+                }
+            ],
+            "2023": [{
+                    "title": "Flickr",
+                    "description": "Link to flickr profile",
+                    "url": "https://www.flickr.com/people/195667647@N08/"
+                }
+            ]
+        },
+        "songs": {
+            "2024": [{
+                "title": "Third song",
+                "description": "Coming soon!",
+                "url": ""
+            },
+            {
+                "title": "Second song",
+                "description": "Coming soon!",
+                "url": ""
+            }],
+            "2023": [{
+                "title": "First song",
+                "description": "Coming soon!",
+                "url": ""
+            }]
+        },
+        "books": {
+            "2024": [{
+                "title": "Mizu's path to the darkness",
+                "description": "Coming soon!",
+                "url": ""
+            },
+            {
+                "title": "The Universe",
+                "description": "Coming soon!",
+                "url": ""
+            }],
+            "2023": [{
+                "title": "A Roadmap to Success",
+                "description": "A book about success",
+                "url": "https://www.patreon.com/YukiArimo/shop/book-roadmap-to-success-60273?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=productshare_creator&utm_content=join_link"
+            }]
+        }
+    }
+}
