@@ -1,206 +1,565 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-bs-theme="auto" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Yuki Arimo</title>
-    <meta name="description"
-        content="Hello world! I'm JavaScript full-stack Developer, and philosophy Vtuber. Every work needs a research. It's so hard, but I love it.">
-    <meta name="keywords" content="Yuki, Yuki Arimo, Vtuber, GitHub">
-    <meta name="author" content="Yuki Arimo">
-    <meta name="robots" content="index, follow"> <!-- To allow search engines to index your site -->
-    <meta name="referrer" content="no-referrer-when-downgrade"> <!-- For privacy and security -->
-
-    <!-- Stylesheet link (replace 'styles.css' with your actual CSS file) -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yukiarimo/kawai-framework@main/assets/css/kawai.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link href="assets/fonts/kawai-font.woff" rel="stylesheet" type="application/font-woff">
-
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar" content="#212529">
-    <meta name="theme-color" content="#212529" />
-    <link href="/manifest.json" rel="manifest" crossorigin="use-credentials" />
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <script src="assets/js/index.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/gh/yukiarimo/kawai-framework@main/assets/js/kawai.js" defer></script>
-
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function () {
-                navigator.serviceWorker.register('/sw.js').then(
-                    function (registration) {
-                        // Registration was successful
-                        console.log('ServiceWorker registration successful with scope: ', registration
-                            .scope);
-                    },
-                    function (err) {
-                        // registration failed :(
-                        console.log('ServiceWorker registration failed: ', err);
-                    });
-            });
+    <link rel="canonical" href="https://www.yukiarimo.com/">
+    <meta property="og:url" content="https://www.yukiarimo.com/">
+    <meta property="og:image" content="https://www.yukiarimo.com/assets/img/yukiarimo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Personal Portfolio">
+    <meta property="og:title" content="Yuki Arimo">
+    <meta name="twitter:image" content="https://www.yukiarimo.com/assets/img/yukiarimo.png">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Yuki Arimo",
+            "url": "https://www.yukiarimo.com"
         }
     </script>
+    <script>
+        (function() {
+
+            // JavaScript snippet handling Dark/Light mode switching
+
+            const getStoredTheme = () => localStorage.getItem('theme');
+            const setStoredTheme = theme => localStorage.setItem('theme', theme);
+            const forcedTheme = document.documentElement.getAttribute('data-bss-forced-theme');
+
+            const getPreferredTheme = () => {
+
+                if (forcedTheme) return forcedTheme;
+
+                const storedTheme = getStoredTheme();
+                if (storedTheme) {
+                    return storedTheme;
+                }
+
+                const pageTheme = document.documentElement.getAttribute('data-bs-theme');
+
+                if (pageTheme) {
+                    return pageTheme;
+                }
+
+                return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+
+            const setTheme = theme => {
+                if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.documentElement.setAttribute('data-bs-theme', 'dark');
+                } else {
+                    document.documentElement.setAttribute('data-bs-theme', theme);
+                }
+            }
+
+            setTheme(getPreferredTheme());
+
+            const showActiveTheme = (theme, focus = false) => {
+                const themeSwitchers = [].slice.call(document.querySelectorAll('.theme-switcher'));
+
+                if (!themeSwitchers.length) return;
+
+                document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+                    element.classList.remove('active');
+                    element.setAttribute('aria-pressed', 'false');
+                });
+
+                for (const themeSwitcher of themeSwitchers) {
+
+                    const btnToActivate = themeSwitcher.querySelector('[data-bs-theme-value="' + theme + '"]');
+
+                    if (btnToActivate) {
+                        btnToActivate.classList.add('active');
+                        btnToActivate.setAttribute('aria-pressed', 'true');
+                    }
+                }
+            }
+
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+                const storedTheme = getStoredTheme();
+                if (storedTheme !== 'light' && storedTheme !== 'dark') {
+                    setTheme(getPreferredTheme());
+                }
+            });
+
+            window.addEventListener('DOMContentLoaded', () => {
+                showActiveTheme(getPreferredTheme());
+
+                document.querySelectorAll('[data-bs-theme-value]')
+                    .forEach(toggle => {
+                        toggle.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            const theme = toggle.getAttribute('data-bs-theme-value');
+                            setStoredTheme(theme);
+                            setTheme(theme);
+                            showActiveTheme(theme);
+                        })
+                    })
+            });
+        })();
+    </script>
+    <link rel="icon" type="image/png" sizes="256x256" href="assets/img/yukiarimo.png?h=0e47fea94a6d27d019495deaf0bce86d">
+    <link rel="icon" type="image/png" sizes="256x256" href="assets/img/yukiarimo.png?h=0e47fea94a6d27d019495deaf0bce86d" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="256x256" href="assets/img/yukiarimo.png?h=0e47fea94a6d27d019495deaf0bce86d">
+    <link rel="icon" type="image/png" sizes="256x256" href="assets/img/yukiarimo.png?h=0e47fea94a6d27d019495deaf0bce86d">
+    <link rel="icon" type="image/png" sizes="256x256" href="assets/img/yukiarimo.png?h=0e47fea94a6d27d019495deaf0bce86d">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=0fb2ebb34a7b0788701748ebb700a7a9">
+    <link rel="manifest" href="manifest.json?h=0c19401b55abb460f0b99109e3e619fb">
+    <link rel="stylesheet" href="assets/css/Lato.css?h=a3cc39638c84de2c21f45a8fdcd55e4f">
+    <link rel="stylesheet" href="assets/css/Montserrat.css?h=7777965f11a96150fbd91f4368ccb664">
+    <link rel="stylesheet" href="assets/css/swiper-icons.css?h=c7acc97a8ef16e20b0cd8626a5c9c098">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css?h=d98553506d4393860db8a633e4842ead">
+    <link rel="stylesheet" href="assets/css/aos.min.css?h=ea67d3638a91cd05d22f1b4e31c7b746">
+    <link rel="stylesheet" href="assets/css/Articles-Cards-images.css?h=4f3cfa46e40e236365345fc77963f4b8">
+    <link rel="stylesheet" href="assets/css/Simple-Slider-swiper-bundle.min.css?h=b2e8d5a1d0e80833f32608dcfff200b6">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css?h=da830b6503e0457b5735b0129f20b163">
 </head>
 
-<body>
-    <div class="topbar-o">
-        <div class="logo">
-            <picture>
-                <source srcset="assets/img/yukiarimo.png" type="image/webp">
-                <img src="assets/img/yukiarimo.png" alt="yuki Arimo">
-            </picture>
-            <h1 class="block-text la">Yuki Arimo</h1>
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+    <nav class="navbar navbar-expand-lg fixed-top bg-secondary text-uppercase navbar-light" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top">Yuki Arimo</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#blog">Blog</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-
-        <div class="top-tab-block desktop-only">
-            <a class="top-tab-block-e" href="#home">Home</a>
-            <a class="top-tab-block-e" href="#work">Work</a>
-            <a class="top-tab-block-e" href="#creativity">Creativity</a>
-            <a class="top-tab-block-e" href="#contact">Contact</a>
+    </nav>
+    <header class="text-center text-white bg-primary masthead">
+        <div class="container"><img class="rounded-circle img-fluid d-block mx-auto mb-5" src="assets/img/yukiarimo.png?h=0e47fea94a6d27d019495deaf0bce86d">
+            <h1>Yuki Arimo</h1>
+            <hr class="star-light">
+            <h2 class="font-weight-light mb-0">Software Developer - YouTuber - Artist - Philosopher</h2>
         </div>
-
-        <!-- Hamburger Menu Icon -->
-    <div class="hamburger-menu" onclick="toggleMenu()">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-    </div>
-
-    <!-- Mobile Context Menu -->
-    <div class="mobile-context-menu" id="mobileContextMenu">
-        <div class="menu-item" onclick="navigate('#home')">Home</div>
-        <div class="menu-item" onclick="navigate('#work')">Work</div>
-        <div class="menu-item" onclick="navigate('#creativity')">Creativity</div>
-        <div class="menu-item" onclick="navigate('#contact')">Contact</div>
-    </div>
-    </div>
-
-    <div class="block-o">
-        <div class="header">
-            <p class="block-text la">Software Developer, Vtuber, Blogger, Artist, Philosopher</p>
+    </header>
+    <section data-aos="fade" class="text-white mb-0" id="about">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-primary">About</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead text-primary">I am a developer who creates software using JavaScript and Python. My work goes beyond just coding. I want to explore the relationship between technology and humanity. As a full-stack developer, I build applications encouraging contemplation about life's deeper questions.</p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead text-primary">Join me on a philosophical inquiry into society, purpose, and love. Together, we'll explore the intricacies of human nature and the ethical challenges in our digital future. Let's navigate the complex web of our interconnected world and seek to understand it.</p>
+                </div>
+            </div>
+            <div class="text-center mt-4"><a class="btn btn-outline-light btn-xl" role="button" href="https://github.com/yukiarimo"><span>GitHub Portfolio</span></a></div>
         </div>
+    </section>
+    <section data-aos="fade" id="portfolio" class="portfolio bg-primary">
+        <div class="container">
+            <h2 class="text-uppercase text-center font-weight-light text-white">Portfolio</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#yuna-ai-modal" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/yuna-ai.png?h=5bde47039f23de84a7748bee08793ac3">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#kawai-framework-modal" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/kawai-framework.png?h=4b5723e2b00006ef3a25df097c7187dd">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#kiseki-modal" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/kiseki.png?h=984b4ff719255fcbf2e01164905ebb90">
+                    </a></div>
+            </div>
+        </div>
+    </section>
+    <section data-aos="fade" id="blog" class="content-section">
+        <div class="container">
+            <h2 class="text-uppercase text-center card-text">Blog</h2>
+            <hr class="star-dark mb-5">
+          <div class="row">
+            <!-- Articles Section -->
+            <div class="col-md-6">
+              <h2 class="text-uppercase text-center card-text">Articles</h2>
+              <hr class="star-dark mb-5">
+              <div class="swiper-container articles-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1398/format:webp/1*xWyoGNWdW6XN66uYhXW9Zw.png">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">Tag syndrome</h4>
+                        <p class="card-text">Subtitle or description for Article 1</p>
+                        <a href="https://medium.com/@yukiarimo/tag-syndrome-d4adcaadf63c" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*dCGNQYp6nReu6H6PfRhBfQ.png">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">What is respect?</h4>
+                        <p class="card-text">Exploring the complex nature of respect and its role in society</p>
+                        <a href="https://medium.com/@yukiarimo/what-is-respect-b50fa71cf8b" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
 
-        <section class="home" id="home">
-            <h2 class="block-text lb">Philosophy</h2>
-            <section class="coll-lo h-coll">
-                <section class="block-card articles el-4">
-                    <h3 class="block-text lb">Articles</h3>
-                    <h3 class="block-text lc">2024</h3>
-                    <div class="block-list block-scroll" id="philosophy-articles-2024"></div>
-                    <h3 class="block-text lc">2023</h3>
-                    <div class="block-list block-scroll" id="philosophy-articles-2023"></div>
-                </section>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ZnkXAmzLnbtZ6vNlS-XdBA.png">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">Solo life!</h4>
+                        <p class="card-text">Exploring the Benefits and Challenges of Living a Solo Life: Embracing Personal Growth and Fulfillment</p>
+                        <a href="https://medium.com/@yukiarimo/solo-life-1380a480f637" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
 
-                <section class="block-card podcasts el-4">
-                    <h3 class="block-text lb">Podcasts</h3>
-                    <h3 class="block-text lc">2024</h3>
-                    <div class="block-list block-scroll" id="philosophy-podcasts-2024"></div>
-                    <h3 class="block-text lc">2023</h3>
-                    <div class="block-list block-scroll" id="philosophy-podcasts-2023"></div>
-                </section>
-            </section>
-        </section>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*K5gFuIsCpDtNUOA122NcMQ.jpeg">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">How does love work?</h4>
+                        <p class="card-text">Unraveling the Mystery of Romantic Love: Understanding How Love Works and Building Strong Relationships</p>
+                        <a href="https://medium.com/@yukiarimo/how-love-works-98362b3b3231" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
 
-        <!-- Researches Section -->
-        <section class="work" id="work">
-            <h2 class="block-text lb">Work</h2>
-            <section class="coll-lo h-coll">
-                <section class="block-card researches el-4">
-                    <h3 class="block-text lb">Researches</h3>
-                    <h3 class="block-text lc">2024</h3>
-                    <div class="block-list block-scroll" id="work-researches-2024"></div>
-                    <h3 class="block-text lc">2023</h3>
-                    <div class="block-list block-scroll" id="work-researches-2023"></div>
-                </section>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*t_I5caOHkb6sL4LEE2gP4g.png">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">First love reflection</h4>
+                        <p class="card-text">Unveiling the Mysteries and Impact of First Love</p>
+                        <a href="https://medium.com/@yukiarimo/first-love-reflection-4d9933d33991" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
 
-                <section class="block-card projects el-4">
-                    <h3 class="block-text lb">Projects</h3>
-                    <h3 class="block-text lc">2024</h3>
-                    <div class="block-list block-scroll" id="work-projects-2024"></div>
-                    <h3 class="block-text lc">2023</h3>
-                    <div class="block-list block-scroll" id="work-projects-2023"></div>
-                </section>
-            </section>
-        </section>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1396/format:webp/1*ulBQtD5UL9HS0nVdglPojA.png">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">Friendship building</h4>
+                        <p class="card-text">Unveiling the Power and Depth of True Friendship: Liberating Relationships from the Constraints of Romantic Intricacies</p>
+                        <a href="https://medium.com/@yukiarimo/friendship-building-df07a3defdcc" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
 
-        <!-- Creativity Section -->
-        <section class="creativity" id="creativity">
-            <h2 class="block-text lb">Creativity</h2>
-            <section class="coll-lo h-coll">
-                <section class="block-card music el-4">
-                    <h3 class="block-text lb">Art</h3>
-                    <h3 class="block-text lc">2024</h3>
-                    <div class="block-list block-scroll" id="creativity-art-2024"></div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*1GpEkcsFjInUpLdke9dIAw.png">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">Find your fate</h4>
+                        <p class="card-text">Unveiling the Threads: Exploring Fate, Choices, and the Illusion of Destiny</p>
+                        <a href="https://medium.com/@yukiarimo/find-your-fate-2d29bd692609" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
 
-                    <h3 class="block-text lc">2023</h3>
-                    <div class="block-list block-scroll" id="creativity-art-2023"></div>
-                </section>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*qkfeI2IIdNiq5LA0kJ3K0Q.jpeg">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">The Art of Apology</h4>
+                        <p class="card-text">Mastering the Art of Apology: The Power of Sincere Regret</p>
+                        <a href="https://medium.com/@yukiarimo/the-art-of-apology-71383a450785" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
 
-                <section class="block-card books el-4">
-                    <h3 class="block-text lb">Photography</h3>
-                    <h3 class="block-text lc">2024</h3>
-                    <div class="block-list block-scroll" id="creativity-photography-2024"></div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1240/format:webp/1*pf7wuUftrd44L9cYnQrFzg.jpeg">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">NNN is waiting for you! A Journey of Self-Control.</h4>
+                        <p class="card-text">Embracing Discipline: The No Nut November Phenomenon</p>
+                        <a href="https://medium.com/@yukiarimo/https-www-patreon-com-posts-nnn-is-waiting-92048319-097630a3be74" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add Pagination and Navigation -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+      
+            <!-- Podcasts Section -->
+            <div class="col-md-6">
+              <h2 class="text-uppercase text-center card-text">Podcasts</h2>
+              <hr class="star-dark mb-5">
+              <div class="swiper-container podcasts-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*mJZzZ4jgDA50HI71YAgD_A.jpeg">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">JavaScript introduction</h4>
+                        <p class="card-text">Exploring the Power and Versatility of JavaScript Programming Language</p>
+                        <a href="https://medium.com/@yukiarimo/coding-javascript-introduction-7b8fa93ce4b6" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*05ypAE9VxqxDN1LVixQZjg.jpeg">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">The mystery of AI consciousness</h4>
+                        <p class="card-text">Exploring the Potential of AI Consciousness: Understanding the Fundamental Differences between AI and Human Intelligence</p>
+                        <a href="https://medium.com/@yukiarimo/the-mystery-of-ai-consciousness-5b38f2cb6f8c" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
 
-                    <h3 class="block-text lc">2023</h3>
-                    <div class="block-list block-scroll" id="creativity-photography-2023"></div>
-                </section>
-            </section>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*eikO7INt09uooNEQ90Qldw.png">
+                      <div class="card-body p-4">
+                        <h4 class="card-title">Japanese Introduction</h4>
+                        <p class="card-text">About all the complexities of the most beautiful language in the world!</p>
+                        <a href="https://medium.com/@yukiarimo/japanese-introduction-3222308969a0" class="btn btn-link" role="button">View More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add Pagination and Navigation -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
 
-            <section class="coll-lo h-coll">
-                <section class="block-card music el-4">
-                    <h3 class="block-text lb">Songs</h3>
-                    <h3 class="block-text lc">2024</h3>
-                    <div class="block-list block-scroll" id="creativity-songs-2024"></div>
-
-                    <h3 class="block-text lc">2023</h3>
-                    <div class="block-list block-scroll" id="creativity-songs-2023"></div>
-                </section>
-
-                <section class="block-card books el-4">
-                    <h3 class="block-text lb">Books</h3>
-                    <h3 class="block-text lc">2024</h3>
-                    <div class="block-list block-scroll" id="creativity-books-2024"></div>
-
-                    <h3 class="block-text lc">2023</h3>
-                    <div class="block-list block-scroll" id="creativity-books-2023"></div>
-                </section>
-            </section>
-        </section>
-
-        <section class="home contact" id="contact">
-            <section class="coll-lo v-coll">
-                <h2 class="block-text lb">Contact me</h2>
-                <section class="coll-lo h-coll">
-                    <section class="block-card el-8 articles">
-                        <div class="block-list block-scroll">
-                            <div class="block-list-e block-text lc"><a
-                                    href="https://www.patreon.com/YukiArimo">Patreon</a>
-                            </div>
-                            <div class="block-list-e block-text lc"><a href="https://github.com/yukiarimo">GitHub</a>
-                            </div>
-                            <div class="block-list-e block-text lc"><a href="https://twitter.com/yukiarimo">Twitter</a>
-                            </div>
-                            <div class="block-list-e block-text lc"><a
-                                    href="https://www.reddit.com/user/yukiarimo/">Reddit</a></div>
-                            <div class="block-list-e block-text lc"><a
-                                    href="https://www.deviantart.com/yukiarimo">DeviantArt</a></div>
-                            <div class="block-list-e block-text lc"><a
-                                    href="https://www.flickr.com/photos/195667647@N08/">Flickr</a></div>
-                            <div class="block-list-e block-text lc"><a
-                                    href="https://www.youtube.com/@yukiarimo">YouTube</a>
-                            </div>
-                            <div class="block-list-e block-text lc"><a href="https://medium.com/@yukiarimo">Medium</a>
-                            </div>
-                            <div class="block-list-e block-text lc"><a
-                                    href="https://discord.com/users/1131657390752800899">Discord</a></div>
-                            <div class="block-list-e block-text lc"><a href="https://t.me/yukiarimo">Telegram</a></div>
+            <div class="col-md-6">
+                <h2 class="text-uppercase text-center card-text">Songs</h2>
+                <hr class="star-dark mb-5">
+                <div class="swiper-container podcasts-slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="card">
+                        <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://online.berklee.edu/takenote/wp-content/uploads/2019/03/killerHooks-1920x1200.png">
+                        <div class="card-body p-4">
+                          <h4 class="card-title">First song</h4>
+                          <p class="card-text">Coming soon</p>
+                          <a href="https://twitter.com/yukiarimo" class="btn btn-link" role="button">View More</a>
                         </div>
-                    </section>
-                </section>
-            </section>
-        </section>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Add Pagination and Navigation -->
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <h2 class="text-uppercase text-center card-text">Books</h2>
+                <hr class="star-dark mb-5">
+                <div class="swiper-container podcasts-slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="card">
+                        <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://i9.ytimg.com/vi/boEuJaoG2vI/maxresdefault.jpg?v=6559ab77&sqp=CJSvo6wG&rs=AOn4CLDZxxCjOAsL90AxknNDNo2oobRYDQ">
+                        <div class="card-body p-4">
+                          <h4 class="card-title">A Roadmap To Success</h4>
+                          <p class="card-text">Book about life</p>
+                          <a href="https://www.patreon.com/YukiArimo/shop/book-roadmap-to-success-pro-item-60273?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=productshare_creator&utm_content=join_link" class="btn btn-link" role="button">View More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Add Pagination and Navigation -->
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <h2 class="text-uppercase text-center card-text">Art</h2>
+                <hr class="star-dark mb-5">
+                <div class="swiper-container podcasts-slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="card">
+                        <img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf1af895-c348-460c-a565-212b0b4d64ad/dgdvvhx-bc5ee246-c1de-4d24-906c-6981d6cd7ca7.png/v1/fill/w_1032,h_774,q_70,strp/akayo_by_yukiarimo_dgdvvhx-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvY2YxYWY4OTUtYzM0OC00NjBjLWE1NjUtMjEyYjBiNGQ2NGFkXC9kZ2R2dmh4LWJjNWVlMjQ2LWMxZGUtNGQyNC05MDZjLTY5ODFkNmNkN2NhNy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.mVPAJFEy2GQbFKE484f9A-GCCEABlaLZubcyPBzfsFE">
+                        <div class="card-body p-4">
+                          <h4 class="card-title">DeviantArt</h4>
+                          <p class="card-text">See more in my profile.</p>
+                          <a href="https://www.deviantart.com/yukiarimo" class="btn btn-link" role="button">View More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Add Pagination and Navigation -->
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <h2 class="text-uppercase text-center card-text">Photography</h2>
+                <hr class="star-dark mb-5">
+                <div class="swiper-container podcasts-slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="card">
+                        <a class="card-img-top w-100 d-block fit-cover" style="height: 200px;" data-flickr-embed="true" href="https://www.flickr.com/photos/195667647@N08/albums/72177720313607868" title="Best"><img src="https://live.staticflickr.com/65535/53118158413_bb5b9416fa_z.jpg" width="640" height="200" alt="Best"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                        <div class="card-body p-4">
+                          <h4 class="card-title">Flickr</h4>
+                          <p class="card-text">See more in my profile.</p>
+                          <a href="https://www.flickr.com/photos/195667647@N08/" class="btn btn-link" role="button">View More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Add Pagination and Navigation -->
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </section><!-- End: Articles Cards -->
+    <section data-aos="fade" id="contact" style="background: rgb(24,188,156);">
+        <div class="container">
+            <h2 class="text-uppercase text-center font-weight-light text-white mb-0" style="border-color: rgb(44, 62, 80);">Feedback</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLScqnZ8i0AIDr6jDlspZSiMsdv5HsC7DrTWRxCrbAsOxI_Dgag/formResponse" method="post" id="application-form" target="_blank" id="contactForm" name="sentMessage">
+                        <div class="control-group">
+                            <div class="mb-0 form-floating controls pb-2"><input class="form-control name" name="entry.2005620554" dir="auto" value="" type="text" id="entry_2005620554" required="" placeholder="Name"><label class="form-label">Name</label><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div class="control-group">
+                            <div class="mb-0 form-floating controls pb-2"><input class="form-control email" name="entry.1045781291" value="" type="email" id="entry_1045781291" aria-label="Email  " required="" placeholder="Email Address"><label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div class="control-group">
+                            <div class="mb-5 form-floating controls pb-2"><textarea class="form-control" name="entry.1166974658" value=""  dir="auto" id="entry_1166974658" required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div id="success"></div>
+                        <div><button class="btn btn-secondary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="text-center footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p>Canada, Calgary</p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase">Find me</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-support fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-github fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-reddit fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-deviantart fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-flickr fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-youtube-play fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-file-powerpoint-o fa-fw"></i></a><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-telegram fa-fw"></i></a><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-cc-discover fa-fw"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">Future</h4>
+                    <p class="lead mb-0"><span>My story is just the beginning! Join me, and we'll see where this journey will take us!</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="text-center text-white copyright py-4">
+        <div class="container"><small>Copyright ©&nbsp;Yuki Arimo 2023</small></div>
     </div>
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="text-center d-block rounded text-white" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="yuna-ai-modal">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase card-text mb-0">Yuna AI</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/yuna-ai.png?h=5bde47039f23de84a7748bee08793ac3">
+                                <p class="mb-5">Your virtual AI girlfriend.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a href="https://github.com/yukiarimo/yuna-ai" class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button">Read More</a></div>
+                <a class="btn btn-primary" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="kawai-framework-modal">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase card-text mb-0">Kawai Framework</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/kawai-framework.png?h=4b5723e2b00006ef3a25df097c7187dd">
+                                <p class="mb-5">Best web framework in the world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a href="https://github.com/yukiarimo/kawai-framework" class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button">Read More</a></div>
+                <a class="btn btn-primary" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="kiseki-modal">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase card-text mb-0">Kiseki</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/kiseki.png?h=984b4ff719255fcbf2e01164905ebb90">
+                                <p class="mb-5">Visual novel builder.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a href="https://github.com/yukiarimo/kiseki" class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button">Read More</a></div>
+                <a class="btn btn-primary" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=e55bde7d6e36ebf17ba0b8c1e80e4065"></script>
+    <script src="assets/js/aos.min.js?h=d3718e34eeb0355be8e3179a2e2bccb7"></script>
+    <script src="assets/js/bs-init.js?h=d0c6de1d0ecd5065d55e7b94664b5b10"></script>
+    <script src="assets/js/freelancer.js?h=3feb602c24e264789bbbabe49aeb2cb8"></script>
+    <script src="assets/js/Simple-Slider-swiper-bundle.min.js?h=e0c0f6a33b1ca78b2a1df838a346a344"></script>
+    <script src="assets/js/Simple-Slider.js?h=84b1d7cbf88bb21b37fb412ca8f94640"></script>
 </body>
 
 </html>
