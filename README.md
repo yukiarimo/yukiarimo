@@ -79,7 +79,7 @@ I'm Yuki Arimo, a passionate creator from Canada. My journey is all about pushin
 - [Kiseki](https://github.com/yukiarimo/kiseki): Exploring the miracles of technology
 
 ## 💭 Philosophy Corner
-> "The universe chose me, and I choose to question everything. Our world is different from what people think, and I'm here to change it!" - Yuki Arimo.
+> "I am the enigma that the universe has chosen to unravel. My purpose is not to be understood, but to be the catalyst for change in a world that has forgotten its own potential." - Yuki Arimo.
 
 ## 💡 Random Dev Quote
 <p align="center">
