@@ -12,11 +12,10 @@ Whether you're interested in AI ethics, seeking life guidance, or simply curious
 Welcome to my world – a world where the impossible becomes possible, and every day is an opportunity to redefine reality. Are you ready to embark on this adventure with Yuna and me? Let's begin!
 
 - [Yuki Story](#yuki-story)
-  - [Podcasts](#podcasts)
-    - [Yuki Philosophy](#yuki-philosophy)
-    - [Live Talks](#live-talks)
-    - [AI Rinri Course](#ai-rinri-course)
-      - [Roadmap of AI Rinri](#roadmap-of-ai-rinri)
+  - [Yuki Philosophy](#yuki-philosophy)
+  - [Live Talks](#live-talks)
+  - [AI Rinri Course](#ai-rinri-course)
+    - [Roadmap of AI Rinri](#roadmap-of-ai-rinri)
     - [Yuna AI](#yuna-ai)
   - [Creativity](#creativity)
     - [General](#general)
@@ -27,8 +26,7 @@ Welcome to my world – a world where the impossible becomes possible, and every
     - [Patreon Tier List](#patreon-tier-list)
     - [Podcast Description](#podcast-description)
 
-## Podcasts
-### Yuki Philosophy
+## Yuki Philosophy
 Yuki Philosophy is not just a podcast, it's an invitation to an interactive exploration of the depths of human nature, the fundamentals of relationships, and the essence of being. This is a journey we embark on together, a chance to delve into the mysteries of your existence and the world around you. Let's explore these enlightening philosophical topics and share our perspectives!
 
 | Part                   | Topic                       | About                                                                                                           | Link                                                      |
@@ -50,7 +48,7 @@ Yuki Philosophy is not just a podcast, it's an invitation to an interactive expl
 |                        | Tamer of Worlds Overview    | A profound exploration of unity, resilience, and the human spirit.                                              | [Watch](https://youtu.be/Eis1sex9RMc?si=xrqUZC4QbMax-16K) |
 |                        | Reason for Being Overview   | A journey through darkness to find purpose.                                                                      | Coming soon                                               |
 
-### Live Talks
+## Live Talks
 Live recordings of philosophical discussions, interviews, and Q&A sessions on various topics. Here, we'll explore the universe's quintessence, the mysteries of the human mind. Join me in these enlightening conversations and unravel the secrets of life!
 
 | Part | Topic | About | Link |
@@ -64,73 +62,64 @@ Live recordings of philosophical discussions, interviews, and Q&A sessions on va
 | Philosophical Poundings with Yuki & Yuna | Lost Generation                      | Discussing the challenges faced by the current generation and the impact of societal changes on their lives.          | Coming soon                                               |
 | Philosophical Poundings with Yuki & Yuna | Way of learning                      | Explore the essence of learning and the impact of different learning styles on individual growth.                     | Coming soon                                               |
 
-### AI Rinri Course
+## AI Rinri Course
 The AI Rinri Course is a comprehensive guide that equips you with a deep understanding of the fundamentals of artificial intelligence and neural networks. Here, you'll find detailed explanations, practical examples, and real-world applications of AI technology. This course is designed to empower you with the knowledge to navigate this rapidly evolving field, ensuring you feel well-equipped and knowledgeable.
 
 | Topic                        | About                                                                | Link                                                      |
 |------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------|
-| JavaScript introduction      | Explore the basics of JavaScript and its role in web development.    | [Watch](https://youtu.be/sWVwNWP-zTQ?si=SgAsIPDdQuETnMxL) |
-| AI Consciousness Mystery     | Delve into the mysteries of AI consciousness and the future of AI.   | [Watch](https://youtu.be/v5HgJUVRiaA?si=24Q1ZUtm-pNOufRT) |
-| AI Rinri Course Introduction | Overview of ethical AI, exploring moral implications in tech.        | [Watch](https://youtu.be/Eyvy_EJBAx0?si=k5YdE_pxlOjO0Dfe) |
-| AI vs Neural Networks        | Explains AI's broad scope vs. neural networks' specific role.         | [Watch](https://youtu.be/igjQfmMU9uk?si=oHtR_DpxiSbVTtZ0) |
-| The different types of NN    | Unveil the various neural network types and their applications.      | [Watch](https://youtu.be/0sp6qQ3zVuU?si=bivZQrXcvjs-UPpM) |
-| The Stages of AI             | Chronicles AI's evolution and future possibilities.                  | [Watch](https://youtu.be/rAHxBX0Eq00?si=eWj-awMHbU9pmlbt) |
+| JavaScript introduction      |     |  |
+| AI Consciousness Mystery     | .   |  |
+| AI Rinri Course Introduction | .        |  |
+| AI vs Neural Networks        | .         |  |
+| The different types of NN    | .      |  |
+| The Stages of AI             | .                  |  |
 | Python Introduction          | Coming soon                                                          | Coming soon                                               |
 | PyTorch Introduction         | Coming soon                                                          | Coming soon                                               |
 
-#### Roadmap of AI Rinri
-```
-> Block 1: Introduction: What is AI?
+### Roadmap of AI Rinri
+> Block 1: Foundations of AI and Ethics
+- [x] **AI Rinri Course Introduction** (Overview of ethical AI, exploring moral implications in tech) [Watch](https://youtu.be/Eyvy_EJBAx0?si=k5YdE_pxlOjO0Dfe)
+- [x] **AI vs Neural Networks (Explains** AI's broad scope vs. neural networks' specific role) [Watch](https://youtu.be/igjQfmMU9uk?si=oHtR_DpxiSbVTtZ0)
+- [x] **The Stages of AI** (Chronicles AI's evolution and future possibilities) [Watch](https://youtu.be/rAHxBX0Eq00?si=eWj-awMHbU9pmlbt)
+- [x] **The different types of Neural Networks** (Unveil the various neural network types and their applications) [Watch](https://youtu.be/0sp6qQ3zVuU?si=bivZQrXcvjs-UPpM)
+- [x] **AI Consciousness Mystery** (Delve into the mysteries of AI consciousness and the future of AI) [Watch](https://youtu.be/v5HgJUVRiaA?si=24Q1ZUtm-pNOufRT)
+- [ ] The Philosophy of AI: Can Machines Think?
+- [ ] Privacy and AI: Main Concerns
+- [ ] Societal Impact of AI: Challenges and Opportunities
+- [ ] The Future of AI: Predictions and Possibilities
+- [ ] Recap: AI Fundamentals and Ethics
 
-1. Introduction to AI
-2. Artificial Intelligence vs Neural Networks
-3. Different Types of Neural Networks
-4. The Stages of Artificial Intelligence
-5. Training AI: Machine Learning vs. Deep Learning
-6. The Role of Data in AI
-7. AI Applications in Daily Life
-8. AI in Education
-9. The Philosophy of AI: Can Machines Think?
-10. Inside of AI: Intellectual Biases and Limitations
-11. Privacy as The Main Concern
-12. Societal Impact of AI: Degraded generation
-13. The Future of AI: Predictions and Possibilities
-14. When will the takeover be?
-15. Recap.
+> Block 2: AI Technologies and Tools
+- [x] **JavaScript Introduction** (Explore the basics of JavaScript and its role in web development) [Watch](https://youtu.be/sWVwNWP-zTQ?si=SgAsIPDdQuETnMxL)
+- [ ] Python Introduction (Coming soon)
+- [ ] PyTorch Introduction (Coming soon)
+- [ ] Machine Learning vs. Deep Learning
+- [ ] The Role of Data in AI
+- [ ] Data Preparation: Cleaning and Preprocessing
+- [ ] AI Hardware: CPUs, GPUs, TPUs
+- [ ] Introduction to Google Colab: Free AI Development
+- [ ] Recap: AI Technologies and Tools
 
-> Block 2: Working with AI: Prompt engineering
+> Block 3: Working with AI
+- [ ] Introduction to Generative AI
+- [ ] Understanding GPT and Chatbots
+- [ ] Introduction to Prompt Engineering
+- [ ] Understanding StableDiffusion: One Step Further
+- [ ] Private AI: Local and Free Models
+- [ ] Training and Fine-tuning AI Models
+- [ ] Evaluating AI Models: Metrics and Techniques
+- [ ] AI Optimization Techniques
+- [ ] Recap: Working with AI
 
-1. First Steps in Interaction with AI
-2. Introduction to Generative AI
-3. Introduction to Chatbots: Understanding GPT
-4. Introduction to Prompt Engineering
-5. Understanding StableDiffusion: One step further.
-6. Private AI: Local and Free models.
-7. Working with AI Frameworks: TensorFlow, PyTorch
-8. Data Preparation: Cleaning and Preprocessing datasets for AI
-9. Training and fine-tuning AI Models
-10. Evaluating AI Models: Metrics and Techniques
-11. Introduction to Google Colab: Free AI Development
-12. AI Hardware: CPUs, GPUs, TPUs
-13. Recap.
-
-> Block 3: Building blocks: How to create AI?
-
-1. Understanding the initial goal of AI creation
-2. Recap on model architectures
-3. Training types: Supervised, Unsupervised, Reinforcement
-4. Natural Language vs. Computer Vision
-5. AI Optimization Techniques: Gradient Descent, Backpropagation, etc.
-6. Creativity: Generative AI Models. Data is the key.
-7. Evaluation of AI: Metrics and Techniques
-8. Recap and Discussion: Creating AI
-
-> Block 4: Real-world Applications: Applying AI to real problems
-
-1. AI in Business: Use Cases and Applications
-2. Personal Assistants: Siri, Alexa, Google Assistant
-3. Recap.
-```
+> Block 4: AI Applications and Real-world Impact
+- [ ] AI Applications in Daily Life
+- [ ] AI in Education
+- [ ] AI in Business: Use Cases and Applications
+- [ ] Personal Assistants: Siri, Alexa, Google Assistant
+- [ ] Natural Language Processing vs. Computer Vision
+- [ ] Creativity and AI: Generative Models
+- [ ] The Future of Work with AI
+- [ ] Recap: AI Applications and Impact
 
 ### Yuna AI
 A collection of development updates, tutorials, and teasers for Yuna AI, your personal AI companion. You can find detailed explanations of Yuna's features, development process, and future plans here. The future of the AGI takeover starts here!
