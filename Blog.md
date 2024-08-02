@@ -66,7 +66,7 @@ Live recordings of philosophical discussions, interviews, and Q&A sessions on va
 The AI Rinri Course is a comprehensive guide that equips you with a deep understanding of the fundamentals of artificial intelligence and neural networks. Here, you'll find detailed explanations, practical examples, and real-world applications of AI technology. This course is designed to empower you with the knowledge to navigate this rapidly evolving field, ensuring you feel well-equipped and knowledgeable.
 
 ### Roadmap of AI Rinri
-> Block 1: Foundations of AI and Ethics
+> Block 1: Digital Mind Foundations
 - [x] **AI Rinri Course Introduction** (Overview of ethical AI, exploring moral implications in tech) [Watch](https://youtu.be/Eyvy_EJBAx0?si=k5YdE_pxlOjO0Dfe)
 - [x] **AI vs Neural Networks (Explains** AI's broad scope vs. neural networks' specific role) [Watch](https://youtu.be/igjQfmMU9uk?si=oHtR_DpxiSbVTtZ0)
 - [x] **The Stages of AI** (Chronicles AI's evolution and future possibilities) [Watch](https://youtu.be/rAHxBX0Eq00?si=eWj-awMHbU9pmlbt)
@@ -78,7 +78,7 @@ The AI Rinri Course is a comprehensive guide that equips you with a deep underst
 - [ ] The Future of AI: Predictions and Possibilities
 - [ ] Recap: AI Fundamentals and Ethics
 
-> Block 2: AI Technologies and Tools
+> Block 2: Intelligent System Toolkit
 - [x] **JavaScript Introduction** (Explore the basics of JavaScript and its role in web development) [Watch](https://youtu.be/sWVwNWP-zTQ?si=SgAsIPDdQuETnMxL)
 - [ ] Python Introduction (Coming soon)
 - [ ] PyTorch Introduction (Coming soon)
@@ -89,7 +89,7 @@ The AI Rinri Course is a comprehensive guide that equips you with a deep underst
 - [ ] Introduction to Google Colab: Free AI Development
 - [ ] Recap: AI Technologies and Tools
 
-> Block 3: Working with AI
+> Block 3: Cognitive Computing Mastery
 - [ ] Introduction to Generative AI
 - [ ] Understanding GPT and Chatbots
 - [ ] Introduction to Prompt Engineering
@@ -100,7 +100,7 @@ The AI Rinri Course is a comprehensive guide that equips you with a deep underst
 - [ ] AI Optimization Techniques
 - [ ] Recap: Working with AI
 
-> Block 4: AI Applications and Real-world Impact
+> Block 4: Machine Intelligence in Action
 - [ ] AI Applications in Daily Life
 - [ ] AI in Education
 - [ ] AI in Business: Use Cases and Applications
