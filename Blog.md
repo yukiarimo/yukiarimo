@@ -65,17 +65,6 @@ Live recordings of philosophical discussions, interviews, and Q&A sessions on va
 ## AI Rinri Course
 The AI Rinri Course is a comprehensive guide that equips you with a deep understanding of the fundamentals of artificial intelligence and neural networks. Here, you'll find detailed explanations, practical examples, and real-world applications of AI technology. This course is designed to empower you with the knowledge to navigate this rapidly evolving field, ensuring you feel well-equipped and knowledgeable.
 
-| Topic                        | About                                                                | Link                                                      |
-|------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------|
-| JavaScript introduction      |     |  |
-| AI Consciousness Mystery     | .   |  |
-| AI Rinri Course Introduction | .        |  |
-| AI vs Neural Networks        | .         |  |
-| The different types of NN    | .      |  |
-| The Stages of AI             | .                  |  |
-| Python Introduction          | Coming soon                                                          | Coming soon                                               |
-| PyTorch Introduction         | Coming soon                                                          | Coming soon                                               |
-
 ### Roadmap of AI Rinri
 > Block 1: Foundations of AI and Ethics
 - [x] **AI Rinri Course Introduction** (Overview of ethical AI, exploring moral implications in tech) [Watch](https://youtu.be/Eyvy_EJBAx0?si=k5YdE_pxlOjO0Dfe)
