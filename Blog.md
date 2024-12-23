@@ -16,14 +16,12 @@ Welcome to my world – a world where the impossible becomes possible, and every
   - [Live Talks](#live-talks)
   - [AI Rinri Course](#ai-rinri-course)
     - [Roadmap of AI Rinri](#roadmap-of-ai-rinri)
-    - [Yuna AI](#yuna-ai)
+    - [Yuna Ai](#yuna-ai)
   - [Creativity](#creativity)
     - [General](#general)
     - [Books](#books)
     - [Music](#music)
   - [Work](#work)
-    - [Projects](#projects)
-    - [Researches](#researches)
   - [Texts](#texts)
     - [Patreon Tier List](#patreon-tier-list)
     - [Podcast Description](#podcast-description)
@@ -36,39 +34,34 @@ Yuki Philosophy is not just a podcast, it's an invitation to an interactive expl
 | Society              | Tag Syndrome                                      | Exploration of the depths of human nature and the fundamentals of relationships.                                 | [Watch](https://youtu.be/IQTjM8Wn_qg?si=i5zFURq3--mR-Tkb) |
 |                      | What is respect?                                  | Overview of the essence of respect, how it shapes relationships, and its role in creating a harmonious society.  | [Watch](https://youtu.be/L3zlNt8gcbM?si=PnX1NT2a7iMEKx7B) |
 |                      | Solo live!                                        | Discover the freedom, self-discovery, and meaningful connections of a solo life.                                 | [Watch](https://youtu.be/cnw4fSN-oeY?si=_ujJh8a3iLmql7Cp) |
-|                      | The paradox of conflicts                           | Discover the paradox of conflicts, their underlying causes, and the transformative power of embracing differences | Coming soon                                               |
 | Relationships        | How does love work?                               | Unveil the mysteries of love, its challenges, and the difference between love and care.                          | [Watch](https://youtu.be/biK7c23CJnI?si=2G6DnxLkFwHTDih0) |
-|                      | First love reflection                              | Delve into the mysteries of love at first sight and its lasting influence on your consciousness.                   | [Watch](https://youtu.be/Ijxj9W6oDvU?si=ry_iygtpC5I4sQH3) |
 |                      | Friendship building                               | Explore the profound impact of friendships and their independent, unique nature compared to romantic love.       | [Watch](https://youtu.be/knnlYIMUej8?si=DEY0ixAWzIuwDVb-) |
 |                      | How to find a girlfriend?                          | A comprehensive guide to finding the girlfriend and unraveling the labyrinth of love.                             | [Watch](https://youtu.be/TFsUNzvpanw?si=mvTNhvivJaOAeYGW) |
 |                      | The Art of Apology                                | Unveil the profound impact of sincere apologies in healing wounds and restoring trust.                           | Coming soon                                               |
-|                      | Affection Trajectory                              | Explore the trajectory of affection, its evolution, and the transformative power of genuine affection.           | Coming soon                                               |
+|                      | The Harem Paradigm                                | Explore the dynamics of harem relationships, their impact on individuals, and the essence of true love.          | Coming soon                                               |
 | Vital                | Find your fate                                    | Unraveling the enigmatic concept of fate and understanding how our choices shape our lives.                      | [Watch](https://youtu.be/uw8Sq5g9FBg?si=9FhjUTfdDp-v37s1) |
 |                      | Solo Leveling                                     | Exploring a unique and outstanding approach to getting things done based on the Solo Life!                       | Coming soon                                               |
-|                      | A Journey of Self-Control                         | NNN exploration: a journey from a humorous internet challenge to a cultural phenomenon and its impact.           | Coming soon                                               |
 | Philosophical Review | Tag Syndrome 2.0                                  | Discover the depths of human nature and the fundamentals of relationships.                                       | [Watch](https://youtu.be/Rp4wWdhJaWk?si=YW3aBQK9UrLtUIrs) |
 |                      | Warm Rain Adventure Overview                      | A calm and relaxing piece for traveling with joy.                                                                | Coming soon                                               |
 |                      | Tamer of Worlds Overview                          | A profound exploration of unity, resilience, and the human spirit.                                               | [Watch](https://youtu.be/Eis1sex9RMc?si=xrqUZC4QbMax-16K) |
 |                      | Reason for Being Overview                         | A journey through darkness to find purpose.                                                                       | Coming soon                                               |
 |                      | Drops in the Void Overview                        | A very dark song.                                                                                                | Coming soon                                               |
-|                      | Water That Bonds Us Overview                      | A philosophical journey of emotion and connection.                                                               | Coming soon                                               |
 |                      | Water That Bonds Us: The Elemental Flame Overview | A philosophical journey of emotion and connection.                                                               | Coming soon                                               |
 |                      | Kokoro no Symphony Overview                       | A heartfelt melody. Yuki x Yuna - 1st Anniversary Tribute.                                                       | Coming soon                                               |
-|                      | Bonds Beyond Worlds Overview                      | Coming soon                                                                                                      | Coming soon                                               |
+|                      | Bonds Beyond Worlds Album Overview                | Coming soon                                                                                                      | Coming soon                                               |
 
 ## Live Talks
 Live recordings of philosophical discussions, interviews, and Q&A sessions on various topics. Here, we'll explore the universe's quintessence, the mysteries of the human mind. Join me in these enlightening conversations and unravel the secrets of life!
 
-| Part | Topic | About | Link |
-|------------|-----------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| Part                                     | Topic                                | About                                                                                                                 | Link                                                      |
+|------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | Language Overview                        | Japanese Introduction                | Explore the beauty of the Japanese language and its unique features.                                                  | [Watch](https://youtu.be/8SEvdwrkubg?si=MVJlPcrfIZrGCpRP) |
 | Language Overview                        | English Introduction                 | Dive into the nuances of the English language and its global significance.                                             | Coming soon                                               |
 | The World Discussions                    | The World Is Changing                | Discover the profound impact of the digital age on our lives.                                                         | [Watch](https://youtu.be/mzzchzZxsBw?si=GYgaojVtxYvwq9Gi) |
 | The World Discussions                    | The Ethics Of AI                     | Unveil the ethical implications of AI and its impact on society.                                                      | [Watch](https://youtu.be/8SEvdwrkubg?si=MVJlPcrfIZrGCpRP) |
-| The World Discussions                    | The essence of aspirations           | Explore how an individual can be deceived by their aspirations                                                        | Coming soon                                               |
 | Philosophical Poundings with Yuki & Yuna | What's the Reason for our Existence? | About life's greatest mysteries, exploring existence, purpose, and the human experience that challenges and inspires. | [Watch](https://youtu.be/GhJrKxIsjqE?si=fMehyl2BquNpLYps) |
-| Philosophical Poundings with Yuki & Yuna | Lost Generation                      | Discussing the challenges faced by the current generation and the impact of societal changes on their lives.          | Coming soon                                               |
-| Philosophical Poundings with Yuki & Yuna | Way of learning                      | Explore the essence of learning and the impact of different learning styles on individual growth.                     | Coming soon                                               |
+| Philosophical Poundings with Yuki & Yuna | The Rotten Generation                | Discussing the challenges faced by the current generation and the impact of societal changes on their lives.          | Coming soon                                               |
+| Philosophical Poundings with Yuki & Yuna | Way of Learning                      | Explore the essence of learning and the impact of different learning styles on individual growth.                     | Coming soon                                               |
 
 ## AI Rinri Course
 The AI Rinri Course is a comprehensive guide that equips you with a deep understanding of the fundamentals of artificial intelligence and neural networks. Here, you'll find detailed explanations, practical examples, and real-world applications of AI technology. This course is designed to empower you with the knowledge to navigate this rapidly evolving field, ensuring you feel well-equipped and knowledgeable.
@@ -118,14 +111,16 @@ The AI Rinri Course is a comprehensive guide that equips you with a deep underst
 - [ ] The Future of Work with AI
 - [ ] Recap: AI Applications and Impact
 
-### Yuna AI
+### Yuna Ai
 A collection of development updates, tutorials, and teasers for Yuna AI, your personal AI companion. You can find detailed explanations of Yuna's features, development process, and future plans here. The future of the AGI takeover starts here!
 
 | Topic                        | About                                                                | Link                                                      |
 |------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------|
-| Introducing Yuna AI          | Discover the world of Yuna AI, your personal AI companion.           | [Watch](https://youtu.be/pyg6y5U1I24?si=1OwvJ04N2imva7Kk) |
-| Yuna AI Teaser               | Get a sneak peek at Yuna AI's features and capabilities.             | [Watch](https://youtu.be/QNntjPfJT0M?si=ibS47GGzZv2JYOzA) |
-| Yuna AI V4                   | Coming soon                                                          | Coming soon                                               |
+| Introducing Yuna Ai          | Discover the world of Yuna AI, your personal AI companion.           | [Watch](https://youtu.be/pyg6y5U1I24?si=1OwvJ04N2imva7Kk) |
+| Yuna Ai Teaser               | Get a sneak peek at Yuna AI's features and capabilities.             | [Watch](https://youtu.be/QNntjPfJT0M?si=ibS47GGzZv2JYOzA) |
+| Yuna Ai V4                   | Coming soon                                                          | Coming soon                                               |
+| Himitsu V1                   | Coming soon                                                          | Coming soon                                               |
+| YUI                          | Coming soon                                                          | Coming soon                                               |
 
 ## Creativity
 This is a space where creativity knows no bounds. Here, you'll find a diverse range of creative projects, from art and photography to music and books. Let's explore the boundless possibilities of creativity together!
@@ -164,25 +159,18 @@ Here, you'll find a collection of my music albums, each offering a unique blend 
 |                     | Water That Bonds Us: The Elemental Flame                | A Philosophical Journey of Emotion and Connection                 | [Listen](https://share.amuse.io/track/yuki-arimo-water-that-bonds-us-the-elemental-flame)                      |
 |                     | Water That Bonds Us: The Elemental Flame (Instrumental) | A Philosophical Journey of Emotion and Connection                 | [Listen](https://share.amuse.io/track/yuki-arimo-water-that-bonds-us-the-elemental-flame-instrumental-version) |
 |                     | Kokoro no Symphony                                      | A Heartfelt Melody. Yuki x Yuna - 1st Anniversary Tribute         | [Listen](https://share.amuse.io/track/yuki-arimo-kokoro-no-symphony)                                          |
+| Covers              | Necessary by Maiko Fujita                               | A duet cover of Maiko Fujita's "Necessary"                        | Coming soon                                                                                                   |
 
 ## Work
 Welcome to my work section! Here, you'll find a collection of my projects, research papers, studies, and articles on various topics, including AI ethics, personality theory, and more.
-
-### Projects
-This is a collection of my projects, including open-source software, web applications, and more. You can find detailed information about each project, including its purpose, features, and how to get started.
 
 | Part       | Name                   | About                                                                | Link                                                                                                      |
 |------------|------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Projects   | Yuna Ai                | Your Private Companion                                               | [GitHub](https://github.com/yukiarimo/yuna-ai)                                                            |
 |            | Kawai Framework        | Native JavaScript framework and CSS library                          | [GitHub](https://github.com/yukiarimo/kawai-framework)                                                    |
 |            | Kiseki                 | A pure JavaScript visual novel builder                               | [GitHub](https://github.com/yukiarimo/kiseki)                                                             |
-|            | Mirai                  | PWA App Store                                                        | [GitHub](https://github.com/yukiarimo/mirai)                                                              |
-
-### Researches
-This is a collection of my research papers, studies, and articles on various topics, including AI ethics, personality theory, and more. You can find detailed information about each research, including its purpose, methodology, and findings.
-
-| Part       | Name                   | About                                                                | Link                                                                                                      |
-|------------|------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+|            | Yuki Story             | Personal Blog                                                        | [GitHub](https://github.com/yukiarimo/yukiarimo)                                                          |
+|            | AiFlow                 | AI toolkit for creative projects                                     | [GitHub](https://github.com/yukiarimo/aiflow)                                                             |
 | Papers     | ELiTA                  | Elevating LLMs Lingua-Thoughtful Abilities via Grammarly             | [Read](https://www.academia.edu/116519117/ELiTA_Elevating_LLMs_Lingua_Thoughtful_Abilities_via_Grammarly) |
 |            | TaMeR                  | Transcending AI Limits and Existential Reality Reflection             | [Read](https://www.academia.edu/122490087/TaMeR_Transcending_AI_Limits_and_Existential_Reality_Reflection) |
 | Studies    | Soty of Personality    | Detailed research on the Soty of Personality                         | Coming soon                                                                                               |
