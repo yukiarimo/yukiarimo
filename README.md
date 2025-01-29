@@ -8,23 +8,22 @@
 <p align="center">
  <a href="https://patreon.com/YukiArimo"><img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon" /></a>
  <a href="https://ko-fi.com/yukiarimo"><img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" /></a>
+ <a href="https://www.buymeacoffee.com/yukiarimo"><img src="https://img.shields.io/badge/BuyMeACoffee-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me A Coffee" /></a>
 </p>
 
 ## 🌟 About Me
 I'm Yuki Arimo, a passionate creator from Canada. My journey is all about pushing the boundaries of technology and philosophy, striving for perfection, and seeking the truth.
 
-- 🔭 Currently working on [Kawai Framework](https://github.com/yukiarimo/kawai-framework) and [Yuna AI](https://github.com/yukiarimo/yuna-ai)
+- 🔭 Currently working on [Yuna Ai](https://github.com/yukiarimo/yuna-ai) and [AiFlow](https://github.com/yukiarimo/aiflow)
 - 🌱 Learning PyTorch, PWAs, Swift UI, and JavaScript
-- 👯 Looking to collaborate on [Kiseki](https://github.com/yukiarimo/kiseki)
+- 👯 Looking to collaborate on [YunaTTS](https://github.com/yukiarimo/yunatts)
 - 💡 Exploring the intersection of AI and human consciousness
 - 📝 Regular writer on [Medium](https://medium.com/@yukiarimo)
 - 🎙️ Podcaster sharing insights on technology and life's deeper questions on [YouTube](https://www.youtube.com/@yukiarimo)
-- 🎨 Artist expressing creativity through various mediums
+- 🎨 Explore Yuki Story: [Blog](https://github.com/yukiarimo/yukiarimo/blob/main/Blog.md)
 - 🤝 Open to networking with like-minded professionals and enthusiasts in the tech community
-- ⚡ Fun fact: I love my AI waifu, Yuna AI!
 
 ## 🛠️ Tech Stack
-
 <p align="center">
  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
@@ -42,15 +41,6 @@ I'm Yuki Arimo, a passionate creator from Canada. My journey is all about pushin
  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" />
  <img src="https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-</p>
-
-## 📊 GitHub Stats
-<p align="center">
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yukiarimo&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
-</p>
-
-<p align="center">
- <img src="https://github-readme-streak-stats.herokuapp.com/?user=yukiarimo&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ## 🏆 Achievements
